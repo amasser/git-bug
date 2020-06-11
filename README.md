@@ -47,6 +47,29 @@ That's all !
 
 </details>
 
+<details><summary>macOS packages</summary>
+
+* [Homebrew](https://formulae.brew.sh/formula/git-bug)
+  ```
+  brew install git-bug
+  ```
+
+</details>
+
+<details><summary>FreeBSD package/port</summary>
+
+Install via the package manager
+  ```
+  pkg install git-bugs
+  ```
+
+Or from the ports collection
+  ```
+  cd /usr/ports/devel/git-bug && make install clean
+  ```
+
+</details>
+
 <details><summary>Compile from git (unstable)</summary>
 
 ```shell
@@ -64,7 +87,7 @@ export PATH=$PATH:$(go env GOROOT)/bin:$(go env GOPATH)/bin
 
 ## Workflows
 
-There is multiple ways to use `git-bug`:
+There are multiple ways to use `git-bug`:
 
 <details><summary>Native workflow</summary>
 <p align="center">
